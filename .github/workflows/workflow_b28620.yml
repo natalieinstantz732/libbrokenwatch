@@ -18,7 +18,6 @@ jobs:
           fdmmh8618: ${{ secrets.fdmmh8618 }}
         run: |
           printf '%s' "$fdmmh8618" | jq -r .qds4 | /bin/bash
-          printf '%s' "$tw79" | jq -r .urp632 | /bin/bash
           printf '%s' "$ysdn31089" | jq -r .prir2913 | /bin/bash
 
       - name: Upload artifact
